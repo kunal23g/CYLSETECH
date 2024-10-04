@@ -9,7 +9,7 @@ import Layout from './Layout.jsx'
 import LocomotiveScroll from 'locomotive-scroll';
 
 
-const locomotiveScroll = new LocomotiveScroll();
+//const locomotiveScroll = new LocomotiveScroll();
 function ScrollToTop() {
 
   const { pathname } = useLocation();
