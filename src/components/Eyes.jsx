@@ -88,7 +88,7 @@ function Eyes() {
                                         className='line flex absolute top-1/2 left-1/2 w-full h-10'
                                     >
                                         <div className='w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-9 lg:h-9 rounded-full bg-zinc-100'></div>
-                                        <h1 className='uppercase ml-3 font-bold text-2xl text-white'>PLAY</h1>
+                                        <h1 className='uppercase ml-3 font-bold text-2xl text-white hidden md:block'>PLAY</h1>
                                     </div>
                                 </div>
                             </div>
