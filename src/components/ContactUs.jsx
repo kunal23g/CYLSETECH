@@ -46,7 +46,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="mt-10 flex flex-col min-h-screen bg-black text-white">
+    <div className=" mt-16 flex flex-col min-h-screen bg-black text-white">
       <div className="flex-grow flex flex-col lg:flex-row">
         <div className="flex-1 p-8 relative min-h-[25vh] lg:min-h-0">
           <div className='absolute inset-0 flex items-center justify-center'>
@@ -72,7 +72,7 @@ const ContactForm = () => {
           </div>
         </div>
         
-        <div className="flex-1 bg-white text-black p-8 lg:p-12 font-foundersGrotesk">
+        <div className="lg:mr-8  flex-1 bg-white text-black p-8 lg:p-12 font-foundersGrotesk">
           {!isSubmitted ? (
             <>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10">Let's Create Something Epic Together.</h1>
@@ -152,10 +152,13 @@ const ContactForm = () => {
               </form>
             </>
           ) : (
-            <div className="flex items-center justify-center h-full">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold  text-center">
+            <div className="flex flex-col justify-between items-center lg:justify-center md:h-full">
+              <h2 className="mt-6  text-7xl md:text-5xl lg:text-6xl font-bold  text-center">
                 Thank you for contacting us!
               </h2>
+              <br />
+              <h1 className='mt-16 text-7xl'>CYLSETECH</h1>
+              {/* <h1>CYLSETECH</h1> */}
             </div>
           )}
         </div>
